@@ -1,0 +1,459 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: #20202D;
+    font-family: 'Roboto', sans-serif;
+    color:#FFF
+}
+
+p{
+    margin: 0;
+}
+
+.container{
+    width: 90%;
+    max-width: 945px;
+    margin: auto;
+}
+
+.section{
+    padding-top: 64px;
+    padding-bottom: 92px;
+}
+
+.section-title {
+    margin-bottom: 84px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.hero {
+    padding-top: 50px;
+    padding-bottom: 155px;
+    background: linear-gradient(0.01deg, #000000 0.49%, rgba(0, 0, 0, 0) 95.92%);
+    &-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 104px;
+    }
+    &-subtitle {
+        display: inline-block;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFBB01;
+        margin-bottom: 14px;
+    }
+    &-title {
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 59px;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    &-text {
+        max-width: 420px;
+    }
+    &-description {
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 38px;
+    }
+    &-content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-avatar{
+        height: 389px;
+        width: 389px;
+        border-radius: 50%;
+        background: url('../images/image\ 4.jpg') no-repeat center top -60px;
+        background-size: 515px 600px;
+        border: 13px solid #fff;
+    }
+}
+
+.social-link{
+    margin-left: 20px;
+}
+
+.social-link:first-child{
+    margin-left: 0;
+}
+
+.btn {
+    background: linear-gradient(180deg, #FDDE76 0%, #FFBB01 100%);
+    box-shadow: 0px 4px 0px #B68500;
+    border-radius: 5px 5px 10px 10px;
+    padding: 24px 42px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 28px;
+}
+
+.btn-form {
+    width: 100%;
+}
+
+.features {
+    background: #000000;
+
+    &-subtitle{
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 16px;
+    }
+
+    &-block {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &-item{
+        flex-basis: 30%;
+        margin-bottom: 63px;
+    }
+
+    &-image {
+        margin-bottom: 22px;
+    }
+
+    &-text {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+
+.projects{
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
+    &-slide{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &-text{
+        flex-basis: 60%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &-title {
+        flex-basis: 100%;
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 42px;
+    }
+
+    &-time, &-cost {
+        flex-basis: 50%;
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 44px;
+    }
+
+    &-subtitle {
+        margin-bottom: 7px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    &-subtext {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    &-feedback {
+        flex-basis: 100%;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    &-icon {
+        margin-right: 16px;
+    }
+
+    &-pagination{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &-bullet{
+        width: 10px;
+        height: 10px;
+        border: 2px solid #FFBB01;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 44px 10px 0 10px;
+    }
+    &-bullet-active{
+        background: #FFBB01;
+    }
+
+
+
+}
+
+.contacts {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-subtitle {
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 30px;
+    }
+
+    &-form {
+        background: #FFFFFF;
+        box-shadow: -5px 5px 0px #FFC41D;
+        border-radius: 5px;
+        padding: 40px 48px 50px 48px;
+        max-width: 380px;
+        flex-basis: 50%;
+    }
+
+    &-text {
+        flex-basis: 50%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &-phone, &-email {
+        flex-basis: 50%;
+        margin-bottom: 53px;
+    }
+
+    &-social {
+        flex-basis: 100%;
+        margin-bottom: 42px;
+    }
+
+    &-title {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 15px;
+    }
+
+    &-link {
+        margin: 0;
+        color:#fff;
+        font-size: 16px;
+        line-height: 19px;
+        text-decoration: none;
+        margin-right: 37px;
+    }
+
+    &-confidential{
+        flex-basis: 100%;
+        margin-top: 72px;
+    }
+
+    &-policy{
+        font-size: 15px;
+        line-height: 18px;
+        text-decoration-line: underline;
+        color: #A5A5A5;
+    }
+}
+
+.input {
+    background: #F8F8F8;
+    box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+    border-radius: 5px;
+    border: none;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 50px;
+    width: 100%;
+
+    &-name {
+        background: url("/images/user-icon.svg") no-repeat center left 20px;
+        margin-bottom: 17px;
+    }
+
+    &-phone {
+        background: url("/images/phone-icon.svg") no-repeat center left 20px;
+        margin-bottom: 26px;
+    }
+
+}
+
+@media (max-width: 970px) {
+    .projects{
+
+        &-slide {
+            flex-direction: column;
+           margin-right: 1px;
+        }
+        &-image{
+            margin-bottom: 46px;
+        }
+
+    }
+    
+    
+}
+
+@media (max-width: 1050px) {
+
+    .hero-avatar{
+        height: 300px;
+        width: 300px;
+        border: 10px solid #fff;
+    }
+
+}
+
+@media (max-width: 805px) {
+    .hero{
+        &-content{
+            flex-direction: column;
+            align-items: center;
+        }
+        &-avatar{
+            order:0;
+            margin-bottom: 17px;
+        }
+        &-text{
+            order:1;
+            text-align: center;
+            margin-bottom: 34px;
+        }
+
+    }
+
+    .contacts{
+        flex-direction: column;
+        align-items: flex-start;
+
+        &-form{
+            margin-bottom: 58px;
+        }
+    }
+
+    .features{
+        &-item{
+            flex-basis: 40%;
+        }
+    }
+}
+
+@media (max-width: 564px) {
+    .hero{
+        padding-top: 43px;
+        padding-bottom: 75px;
+        &-avatar{
+            width: 113px;
+            height: 113px;
+            border-width: 5px;
+            background-size: 180%;
+            background-position: center top -10px;
+        }
+        &-subtitle {
+            font-size: 16px;
+            line-height: 27px;
+        }
+        &-title{
+            font-size: 24px;
+            line-height: 28px;
+        }
+        &-description {
+            font-size: 14px;
+            line-height: 140%;            
+            text-align: center;
+            margin: 0;
+            margin-bottom: 34px;
+        }
+
+        &-header{
+            margin-bottom: 38px;
+        }
+    }
+
+    .section-title{
+        font-size: 19px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .social-link{
+        margin-left: 10px;
+    }
+
+    .features {
+    
+    &-subtitle{
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    &-item{
+        flex-basis: 100%;
+    }
+
+    &-text {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    }
+
+    .projects {
+        &-slide{
+            align-items: center;
+        }
+
+        &-title{
+            font-size: 18px;
+            line-height: 150%;
+            text-align: center;
+        }
+
+        &-time, &-cost, &-feedback {
+            flex-basis: 100%;
+        }
+    }
+
+    .btn {
+        padding: 15px 42px;
+    }
+
+    .contacts{
+        align-items: center;
+
+        &-email, &-social, &-phone {
+            flex-basis: 100%;
+        }
+
+        &-title{
+            font-size: 18px;
+            line-height: 21px;
+        }
+
+        &-link{
+            font-size: 14px;
+            line-height: 16px;
+            display: block;
+            margin-bottom: 13px;
+        }
+
+        &-form{
+            padding: 39px 19px 47px 19px;
+        }
+
+    }
+}
